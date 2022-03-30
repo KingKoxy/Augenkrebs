@@ -1,0 +1,32 @@
+<idea-plugin>
+    <id>com.kingkoxy.augenkrebs</id>
+    <name>Augenkrebs</name>
+    <version>1.0</version>
+    <vendor email="king.koxy@gmail.com" url="https://www.hopfen.koeri.wiki">King Koxy</vendor>
+
+    <description><![CDATA[
+        A nice Jet Brains IDE theme that looks really nice and is nice
+        ]]></description>
+
+    <change-notes><![CDATA[
+        Initial Commit
+        ]]>
+  </change-notes>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <themeProvider id="d976a7ba-038f-4741-bb2a-889b8cf55c5f" path="/Augenkrebs.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>
